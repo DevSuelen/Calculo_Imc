@@ -125,6 +125,13 @@ footer{
 a{
     margin:20px;
     padding-bottom: 26px;
+    color:azure;
+    justify-content: space-between;
+    transition:0.3s;
+    
 }
 
-
+a:hover {
+    color: coral;
+    transform: translateY(-5px);
+}
